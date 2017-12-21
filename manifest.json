@@ -1,0 +1,47 @@
+{
+	"name": "Watch_the_time",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Simple extension to track your time spent of each website",
+	//"default_locale": "en",
+	"author": "Gaurav Somani",
+	//homepage_url": "https://github.com/gs0mani/",
+
+	"icons": {
+		"16": "clock_icon_48.png",
+		"48": "clock_icon_248.png",
+		"248": "clock_icon_248.png"
+	},
+
+	"background":{
+		"scripts": ["jquery-2.2.4.min.js", "background.js"]
+		//Not an event page hence persistent : true
+	},
+
+	"browser_action":{
+		"defualt_icon": {
+			"16": "clock_icon_48 .png",
+			"48": "clock_icon_248.png",
+			"248": "clock_icon_248.png"
+		},
+		"default_popup": "popup.html",
+		"default_title": "Watch_the_time"
+	},
+
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"notifications"
+	]
+
+	
+	//"content_scripts": [
+	  //{
+		//"matches": ["http://*/*", "https://*/*"],
+		//"js": ["jquery-2.2.4.min.js", "content_script.js"]
+		//"css": ["content_style.css"]
+	  //}
+	//]
+
+}

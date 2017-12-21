@@ -1,0 +1,36 @@
+#head{
+	border-bottom: 1px solid black;
+	color: red;
+	text-align: center;
+	font-family: Impact;
+}
+
+#table_head{
+	font-weight: bold;
+	font-variant: italic;
+	font-family: Arial black;
+	margin: 0px;
+	text-align: center;
+	/*background-color: yellow; */
+	border-bottom: 2px solid black; 
+}
+
+.left{
+	float: left;
+	width: 50%;
+	text-align: left;
+	font-size: 13px;
+	font-family: cursive;
+	font-weight: bold;
+	/*border-bottom: 1px solid black;*/
+}
+
+.right{
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: cursive;
+	/*border-bottom: 1px solid black;*/
+}
